@@ -4,6 +4,7 @@
   "gitAuthor": "eclipse-apoapsis-bot <159786767+eclipse-apoapsis-bot@users.noreply.github.com>",
   "repositories": [
     "eclipse-apoapsis/guidance",
+    "eclipse-apoapsis/ort-server",
     "eclipse-apoapsis/renovate"
   ]
 }
