@@ -5,6 +5,7 @@
   "repositories": [
     "eclipse-apoapsis/guidance",
     "eclipse-apoapsis/ort-server",
-    "eclipse-apoapsis/renovate"
+    "eclipse-apoapsis/renovate",
+    "eclipse-apoapsis/setup-osc"
   ]
 }
