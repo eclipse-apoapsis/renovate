@@ -4,6 +4,17 @@ on:
   schedule:
   - cron: '0/15 * * * *'
   workflow_dispatch:
+    inputs:
+      logLevel:
+        type: choice
+        required: true
+        default: "info"
+        options:
+        - "info"
+        - "debug"
+
+env:
+  LOG_LEVEL: ${{ github.event.inputs.logLevel || 'info' }}
 
 jobs:
   renovate:
