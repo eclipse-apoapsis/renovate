@@ -5,6 +5,7 @@
   "repositories": [
     "eclipse-apoapsis/actions",
     "eclipse-apoapsis/guidance",
+    "eclipse-apoapsis/helm-charts",
     "eclipse-apoapsis/ort-server",
     "eclipse-apoapsis/renovate"
   ]
