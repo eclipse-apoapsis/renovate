@@ -9,5 +9,8 @@
     "eclipse-apoapsis/ort-server",
     "eclipse-apoapsis/ort-server-credential-helper",
     "eclipse-apoapsis/renovate"
+  ],
+  "allowedUnsafeExecutions": [
+    "gradleWrapper"
   ]
 }
