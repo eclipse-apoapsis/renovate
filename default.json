@@ -8,5 +8,12 @@
   ],
   "dependencyDashboard": false,
   "labels": ["dependencies"],
-  "prHourlyLimit": 5
+  "prHourlyLimit": 5,
+  "packageRules": [
+    {
+      "description": "Automerge non-major updates",
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ]
 }
