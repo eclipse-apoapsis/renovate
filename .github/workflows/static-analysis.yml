@@ -24,3 +24,6 @@ jobs:
 
     - name: Validate Global Renovate Config
       run: npx -y --package renovate -- renovate-config-validator renovate-global.json
+
+    - name: Validate Renovate Default Preset
+      run: npx -y --package renovate -- renovate-config-validator default.json
