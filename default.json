@@ -7,6 +7,9 @@
     ":semanticCommitTypeAll(deps)"
   ],
   "dependencyDashboard": false,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
   "labels": ["dependencies"],
   "prHourlyLimit": 5,
   "packageRules": [
