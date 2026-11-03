@@ -20,10 +20,10 @@ jobs:
        node-version: 24
 
     - name: Validate Repository Renovate Config
-      run: npx -y --package renovate -- renovate-config-validator renovate.json
+      run: npx -y --package renovate@latest -- renovate-config-validator renovate.json
 
     - name: Validate Global Renovate Config
-      run: npx -y --package renovate -- renovate-config-validator renovate-global.json
+      run: npx -y --package renovate@latest -- renovate-config-validator renovate-global.json
 
     - name: Validate Renovate Default Preset
-      run: npx -y --package renovate -- renovate-config-validator default.json
+      run: npx -y --package renovate@latest -- renovate-config-validator default.json
