@@ -3,6 +3,7 @@
   "extends": [
     "config:recommended",
     "helpers:pinGitHubActionDigestsToSemver",
+    "security:minimumReleaseAgeNpm",
     ":semanticCommitScopeDisabled",
     ":semanticCommitTypeAll(deps)"
   ],
@@ -14,10 +15,6 @@
       "description": "Automerge non-major updates",
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
-    },
-    {
-      "matchDatasources": ["npm"],
-      "minimumReleaseAge": "7 days"
     }
   ]
 }
